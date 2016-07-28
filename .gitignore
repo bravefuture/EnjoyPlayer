@@ -1,0 +1,2 @@
+# 忽略node_modules文件和node_modules目录 
+node_modules

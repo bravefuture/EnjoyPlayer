@@ -1,12 +1,12 @@
-# EnjoyPlayer 
-## h5播放器（支持m3u8格式）
-html结构：
-```html
+/**
+ * [h5播放器]
+ * @update: 2016.07.20
+ * @author: yongcheng0660@163.com
+ * @github: https://github.com/bravefuture
+ * html结构：
 <div id="video"></div>
-```
-
-实例化：
-```javascript
+ * 	
+ * 实例化
 var player = new Enjoy.Player('#video', {
 	src: '/test.m3u8',
 	width: 800,
@@ -32,5 +32,11 @@ var player = new Enjoy.Player('#video', {
 		}
 	}
 });
-```
+ */
+
+require('sass/player.scss');
+import Player from 'player/player';
+
+export default {Player} 
+
 

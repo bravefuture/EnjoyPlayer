@@ -1,0 +1,35 @@
+@charset "UTF-8";
+// 文件: reset.scss
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; font-size:100%;}
+a {cursor:pointer; outline:0 none;}
+:active{outline:0;}
+:visited{outline:0;}
+:link,:visited,ins{text-decoration:none}
+[hidden]{display:none;}
+body {margin:0; background:#FFF; font-size: 12px;}
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,select,textarea,p,blockquote,th,td,
+article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin:0;padding:0;}
+fieldset,iframe {border:0 none;}
+img{border:0 none;-ms-interpolation-mode:bicubic;vertical-align:middle;}
+address,caption,cite,code,dfn,em,i,th,var,optgroup{font-style:normal;}
+h1,h2,h3,h4,h5,h6,code,kbd,samp,tt,sup,sub,small,input,button,textarea,select{font-size:100%;}
+abbr,acronym{border:0 none;font-variant:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+textarea{overflow:auto;vertical-align:top;resize:vertical;}
+textarea,input,select {outline:0 none;}
+ol,ul,li,menu{list-style:none outside none;}
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after {content:'';content:none;}
+mark{background-color:#FF6;}
+del{text-decoration:line-through;}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}
+input,select,button{vertical-align:middle;}
+button{width:auto;cursor:pointer;overflow:visible;}
+input[type=checkbox],
+input[type=radio]{box-sizing:border-box;}
+button::-moz-focus-inner,
+input[type=file] > input[type=button]::-moz-focus-inner{border:0 none;padding:0;}
+

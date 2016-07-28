@@ -1,0 +1,29 @@
+{
+  "name": "EnjoyPlayer",
+  "version": "1.0.1",
+  "description": "A video player for the web",
+  "main": "./dist/player.js",
+  "browser": "./dist/player.min.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bravefuture/EnjoyPlayer.git"
+  },
+  "author": "yongcheng0660@163.com",
+  "license": "",
+  "homepage": "http://github.com/bravefuture/EnjoyPlayer.git",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "hls.js": "^0.6.2-1",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "svg-inline-loader": "^0.6.1",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {}
+} 
